@@ -1,0 +1,46 @@
+.titulop h3{
+    text-align: center;
+    margin: 20px 0px;
+    color: rgba(0, 0, 0, 0.932);
+    text-shadow: 2px 2px  rgba(112, 103, 100, 0.842);
+}
+.principales {
+	margin: 20px 0px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.principales .producto{
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    background:rgba(0, 0, 0, 0.397);
+	margin: 0px auto;
+	border-radius: 3%;
+}
+.principales h3 {
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	text-shadow: .05em .05em .05em gray;
+}
+.principales img{
+    margin: 10px;
+    width: 250px;
+    height: 150px;
+}
+.principales button{
+    margin-left: 20px;
+}
+
+@media(max-width: 910px){
+    .principales .producto{
+        
+        width: 300px;
+        height: 350px;
+        text-align: center;
+        background:rgba(0, 0, 0, 0.397);
+        margin: 20px auto;
+        border-radius: 3%;
+    }
+}

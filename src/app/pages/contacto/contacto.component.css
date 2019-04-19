@@ -1,0 +1,92 @@
+.contacto{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url("src\assets\ima\ubicacion.jpg");
+}
+
+.contacto .formulario{
+    width: 400px;
+    height: 500px;
+    margin: 20px 10px 20px 0px;
+    background: rgb(255, 255, 255);
+    border-radius: 0px 0px 0px 0px;
+    vertical-align: center;
+}
+
+.contacto .imgMap{
+    width: 500px;
+    height: 500px;
+    margin: 20px 0px 20px 20px;
+    border-radius: 85px 0px 0px 85px;
+    background: rgba(87, 78, 78, 0.555);
+}
+
+.contacto h1{
+    padding-top: 35px ;
+    text-align: center;
+    color: white;
+}
+.contacto h4{
+    padding: 0px;
+    text-align: center;
+}
+.contacto h6{
+    text-align: left;
+    padding-left: 10px;
+}
+.contacto img{
+    display:block;
+    margin:auto;
+  
+}
+
+.formulario input{
+    margin: 10px;
+    width: 300px;
+    margin-left: 50px;
+}
+.formulario h6{
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 40px;
+}
+.formulario textarea{
+    margin:10px;
+    margin-left: 50px;
+    width: 300px;
+}
+
+
+
+@media(max-width:576px){
+    .contacto .imgMap{
+        width:100%;
+        height: auto;
+        margin: 20px 10px 20px 10px;
+        border-radius: 0px;
+    }
+ 
+    .contacto .formulario{
+        width: 400px;
+        height: 450px;
+        margin: 20px 10px 20px 10px;
+        border-radius: 0px;
+    }
+    
+    
+}
+
+/*
+@media(min-width:768px){
+    .mapa .imgMap{
+        width:200px;
+        height: 200px;
+    }
+    .mapa iframe{
+        width: 80%;
+        
+    }
+}*/

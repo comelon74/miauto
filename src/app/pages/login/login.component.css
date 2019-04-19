@@ -1,0 +1,17 @@
+.loginSes{
+    width: 300px;
+    margin: 0px auto;
+}
+.loginSes input, .loginSes h1, .loginSes h4, .loginSes h3{
+    text-align: center;
+}
+.loginSes .loginbtn{
+    text-align:center;
+}
+.loginSes button{
+    border-radius: 70px;
+}
+.loginSes input{
+    border-radius: 70px;
+    border: 3px solid gray;
+}

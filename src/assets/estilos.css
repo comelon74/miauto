@@ -1,0 +1,71 @@
+.carrousel-item img{
+    width: 100%;
+    height: 800px;
+}
+.bd-example, .d-block {
+	margin-top: 73px;
+}
+.carrusel-ima {
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 150px;
+	max-height: 100%;
+	background-size: cover;
+}
+
+#ima1 {
+    background-image: url(ima/slider/autos.png);
+    
+}
+#ima2 {
+	background-image: url(ima/slider/automotriz.png);
+}
+#ima3 {
+	background-image: url(ima/slider/camino.png);
+}
+
+.menu-hamburguesa .dropdown-menu{
+    top: 133%;
+    left: -110px;
+    min-width: 17rem;
+}
+
+.formulario{
+    text-align: center;
+    margin-top: 90px;
+}
+@media(min-width:576px){
+    .carrusel-ima {
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 400px;
+        max-height: 100%;
+        background-size: cover;
+    }
+    .menu-hamburguesa .dropdown-menu{
+        top: 133%;
+        left: -50px;
+        min-width: 17rem;
+    }
+
+}
+@media(min-width:768px){
+    .carrusel-ima {
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 500px;
+        max-height: 100%;
+        background-size: cover;
+    }
+    
+}
+.menu-hamburguesa .container{
+    width: auto;
+}	
+.menu-hamburguesa{	
+    width: 100%;
+    position: fixed;
+    z-index: 101;
+    left: 0;
+    top: 0;
+}
